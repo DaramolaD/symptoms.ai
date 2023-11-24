@@ -7,6 +7,7 @@ import nurse from "./nurse.jpg"
 import mobile_chat from "./mobile_chat.jpg"
 import hands from "./hands.jpg"
 import heart from "./heart.svg"
+import menu from "./menu.svg"
 import hand_heart from "./hand_heart.jpg"
 
 export {
@@ -19,5 +20,6 @@ export {
     mobile_chat,
     male_doc,
     hand_heart,
-    heart
+    heart,
+    menu
 }
