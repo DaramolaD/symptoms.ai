@@ -48,7 +48,7 @@ export default function Header() {
                     ))}
                     <li className="menu_link">
                         <button className='border border-solid rounded-full py-[0.5rem] px-[1rem]'>
-                            <Link href="/">Register/Login</Link>
+                            <Link href="/signUp">Register/Login</Link>
                         </button>
                     </li>
                 </ul>
@@ -63,7 +63,7 @@ export default function Header() {
                         ))}
                         <li className="menu_link">
                             <button className='border border-solid rounded-full py-[1rem] px-[0.5rem]'>
-                                <Link href="/">Register/Login</Link>
+                                <Link href="/signUp">Register/Login</Link>
                             </button>
                         </li>
                     </ul>
