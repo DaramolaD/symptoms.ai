@@ -30,7 +30,7 @@ export default function Header() {
         setToggle(!toggle)
     }
     return (
-        <header className="fixed top-0 left-0 w-full flex justify-center bg-white">
+        <header className="fixed top-0 left-0 w-full flex justify-center bg-white z-[9999]">
             <nav className='max-w-[1400px] relative flex justify-between items-center w-full text-sm sm:text-base sm:px-4 pt-4 pb-3 px-2'>
                 <Link href="/" className="flex space-x-3">
                     <Image alt="header text"
