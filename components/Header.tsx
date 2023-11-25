@@ -25,7 +25,7 @@ const links = [
 ]
 
 export default function Header() {
-    const [toggle, setToggle] = useState(true)
+    const [toggle, setToggle] = useState(false)
     const toggleMenu = () => {
         setToggle(!toggle)
     }
@@ -37,6 +37,7 @@ export default function Header() {
                         src="/logo.svg"
                         width={120}
                         height={32}
+                        onClick={toggleMenu}
                     />
                 </Link>
                 <ul className="hidden md:flex menu text-[#05361E] gap-[40px] items-center">
@@ -51,8 +52,8 @@ export default function Header() {
                         </button>
                     </li>
                 </ul>
-                <Image alt="header text" src={menu} width={30} height={32} onClick={toggleMenu}/>
-                {toggle &&
+                <Image alt="header text" src={menu} width={30} height={32} onClick={toggleMenu} className='md:hidden'/>
+                {toggle ?
                 <div className="menu w-full md:hidden absolute left-0 top-[48px] px-3 bg-[#fff] pt-5 pb-5">
                     <ul className="menu text-[#05361E] grid gap-[40px] items-center">
                         {links.map(({ link, id }) => (
@@ -66,7 +67,7 @@ export default function Header() {
                             </button>
                         </li>
                     </ul>
-                </div>
+                </div> : ""
                 }
             </nav>
         </header>

@@ -8,9 +8,6 @@ import Brand from "@/components/Brand"
 import Service from "@/components/Service"
 import Cta from "@/components/Cta"
 
-const bg = {
-
-}
 const Home: NextPage = () => {
   return (
     <div className="flex max-w-[1400px] mx-auto flex-col items-center min-h-screen">
