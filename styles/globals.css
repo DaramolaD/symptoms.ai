@@ -3,6 +3,19 @@
 @tailwind utilities;
 
 
-.red {
-  color: red;
+@font-face {
+  font-family: Inter;
+  src: url("../assets/font/static/Inter-Regular.ttf");
+}
+@font-face {
+  font-family: Inter-Bold;
+  src: url("../assets/font/static/Inter-Bold.ttf");
+}
+@font-face {
+  font-family: Inter-SemiBold;
+  src: url("../assets/font/static/Inter-SemiBold.ttf");
+}
+@font-face {
+  font-family: Inter-Medium;
+  src: url("../assets/font/static/Inter-Medium.ttf");
 }
