@@ -29,7 +29,7 @@ const SignUp = () => {
     }
   };
   return (
-    <div className="flex max-w-[1400px] mx-auto flex-col justify-center items-center min-h-screen pt-[180px] bg-[#101928] text-[#FAFCFF] pt-[30px]">
+    <div className="flex max-w-[1400px] mx-auto flex-col justify-center items-center pt-[180px] bg-[#101928] text-[#FAFCFF] pb-[30px]">
       <div className="grid gap-[40px] max-w-[600px] w-full px-[20px] justify-items-center pb-[20px]">
         <h2 className="text-2xl">Register your account</h2>
         <form
