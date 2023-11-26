@@ -45,7 +45,7 @@ const SignUp = () => {
                 required
                 type="email"
                 placeholder="mail@example.com"
-                className="p-[10px] rounded bg-[#101928] border border-[#5D6676]"
+                className="text-sm text-[#EFF2F9] p-[10px] rounded-lg bg-[#101928] border border-[#5D6676]"
                 onChange={handleUserData}
               />
             </div>
@@ -56,7 +56,7 @@ const SignUp = () => {
                 required
                 type="password"
                 placeholder="*****"
-                className="p-[10px] rounded bg-[#101928] border border-[#5D6676]"
+                className="text-sm text-[#EFF2F9] p-[10px] rounded-lg bg-[#101928] border border-[#5D6676]"
                 onChange={handleUserData}
               />
             </div>

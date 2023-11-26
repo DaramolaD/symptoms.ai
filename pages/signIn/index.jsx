@@ -43,7 +43,7 @@ const Signin = () => {
                 name="first_name"
                 type="text"
                 required
-                className="p-[10px] rounded bg-[#101928] border border-[#5D6676]"
+                className="p-[10px] rounded-lg text-[#EFF2F9] bg-[#101928] border border-[#5D6676]"
                 placeholder="Jane"
                 onChange={handleUserData}
               />
@@ -55,7 +55,7 @@ const Signin = () => {
                 required
                 type="text"
                 placeholder="Doe"
-                className="p-[10px] rounded bg-[#101928] border border-[#5D6676]"
+                className="p-[10px] rounded-lg text-[#EFF2F9] bg-[#101928] border border-[#5D6676]"
                 onChange={handleUserData}
               />
             </div>
@@ -66,7 +66,7 @@ const Signin = () => {
                 required
                 type="email"
                 placeholder="mail@example.com"
-                className="p-[10px] rounded bg-[#101928] border border-[#5D6676]"
+                className="p-[10px] rounded-lg text-[#EFF2F9] bg-[#101928] border border-[#5D6676]"
                 onChange={handleUserData}
               />
             </div>
@@ -75,7 +75,7 @@ const Signin = () => {
               <select
                 name="gender"
                 id="gender"
-                className="border bg-[#101928] border-[#5D6676] p-[10px] rounded"onChange={handleUserData}
+                className="border bg-[#101928] border-[#5D6676] p-[10px] rounded-lg text-[#EFF2F9]"onChange={handleUserData}
               >
                 <option value="male" className="border-[#5D6676]" onChange={handleUserData}>
                   Male
@@ -92,7 +92,7 @@ const Signin = () => {
                 required
                 type="text"
                 placeholder="Frances"
-                className="p-[10px] rounded bg-[#101928] border border-[#5D6676]"
+                className="p-[10px] rounded-lg text-[#EFF2F9] bg-[#101928] border border-[#5D6676]"
                 onChange={handleUserData}
               />
             </div>
@@ -103,7 +103,7 @@ const Signin = () => {
                 required
                 type="number"
                 placeholder="+222-112222222"
-                className="p-[10px] rounded bg-[#101928] border border-[#5D6676]"
+                className="p-[10px] rounded-lg text-[#EFF2F9] bg-[#101928] border border-[#5D6676]"
                 onChange={handleUserData}
               />
             </div>
@@ -114,12 +114,12 @@ const Signin = () => {
                 required
                 type="password"
                 placeholder="*****"
-                className="p-[10px] rounded bg-[#101928] border border-[#5D6676]"
+                className="p-[10px] rounded-lg text-[#EFF2F9] bg-[#101928] border border-[#5D6676]"
                 onChange={handleUserData}
               />
             </div>
           </div>
-          <button  className="mt-[50px] text-[#fff] bg-[#1958FF] px-[10px] py-[10px] pt-[15px] rounded-xl w-full text-center">
+          <button  className="mt-[50px] text-[#fff] bg-[#1958FF] px-[10px] py-[10px] pt-[15px] rounded-lg w-full text-center">
             Register account
           </button>
         </form>
