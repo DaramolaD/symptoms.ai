@@ -78,6 +78,9 @@ const Signin = () => {
                 className="border bg-[#101928] border-[#5D6676] p-[10px] rounded-lg text-[#EFF2F9]"onChange={handleUserData}
               >
                 <option value="male" className="border-[#5D6676]" onChange={handleUserData}>
+                  Select You Gender
+                </option>
+                <option value="male" className="border-[#5D6676]" onChange={handleUserData}>
                   Male
                 </option>
                 <option value="female" className="border-[#5D6676]" onChange={handleUserData}>
@@ -91,7 +94,7 @@ const Signin = () => {
                 name="country"
                 required
                 type="text"
-                placeholder="Frances"
+                placeholder="Enter Your Country"
                 className="p-[10px] rounded-lg text-[#EFF2F9] bg-[#101928] border border-[#5D6676]"
                 onChange={handleUserData}
               />
@@ -102,7 +105,7 @@ const Signin = () => {
                 name="phone"
                 required
                 type="number"
-                placeholder="+222-112222222"
+                placeholder="+234-000-000-000"
                 className="p-[10px] rounded-lg text-[#EFF2F9] bg-[#101928] border border-[#5D6676]"
                 onChange={handleUserData}
               />
