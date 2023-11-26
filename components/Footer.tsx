@@ -81,7 +81,7 @@ function Footer({ }: Props) {
                 </div>
             </div>
             <div className="footer_footer bg-[#7CE797] px-[20px] py-[16px] text-center">
-                <p className="text-[#000000]">2023 Symptoms.ai Inc. | Privacy Policy | Terms & Conditions</p>
+                <p className="text-[#000000]">&copy;2023 Symptoms.ai Inc. | Privacy Policy | Terms & Conditions</p>
             </div>
         </div>
     )

@@ -33,7 +33,7 @@ function Faq({ }: Props) {
             <div className='w-full max-w-[700px] flex flex-col gap-[50px] py-[64px] justify-center items-center'>
                 <div className="">
                     <h3 className='text-2xl text-[#21262F] text-center'>FAQs</h3>
-                    <p className='text-base text-[#5D6676] text-center'>Visit our help center to get in touch. We're super responsive.</p>
+                    <p className='text-base text-[#5D6676] text-center'>Visit our help center to get in touch. We&apos;re super responsive.</p>
 
                 </div>
                 <div className='w-full gap-[8px] flex flex-col'>
