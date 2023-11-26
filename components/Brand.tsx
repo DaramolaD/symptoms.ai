@@ -27,9 +27,9 @@ type Props = {}
 
 const Brand = (props: Props) => {
   return (
-    <div className='bg-[#101928] px-[80px] py-[50px] w-full flex-col flex items-center gap-[40px] text-center text-white'>
+    <div className='bg-[#101928] px-[20px] md:px-[80px] py-[50px] w-full flex-col flex items-center gap-[40px] text-center text-white'>
         <h3 className='text-base font-normal'>Our partners and medical practitioners <br /> are trusted from</h3>
-        <div className="brands w-full max-w-[950px] flex items-center gap-[32px] flex-wrap justify-between">
+        <div className="brands w-full max-w-[950px] flex items-center gap-[32px] flex-wrap justify-center">
           {imgs.map(({img,id}) => (<Image className='max-w-[186.16px] w-full' src={img} alt='brand' key={id}/>))}
         </div>
     </div>

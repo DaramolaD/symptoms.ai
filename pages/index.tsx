@@ -6,6 +6,9 @@ import Hero from "@/components/Hero"
 import Brand from "@/components/Brand"
 import Service from "@/components/Service"
 import Cta from "@/components/Cta"
+import Testimonies from "@/components/Testimonies"
+import Faq from "@/components/Faq"
+import Footer from "@/components/Footer"
 
 const Home: NextPage = () => {
   return (
@@ -14,8 +17,9 @@ const Home: NextPage = () => {
       <Brand />
       <Service />
       <Cta />
-      <footer className="w-full">
-      </footer>
+      <Testimonies />
+      <Faq />
+      <Footer />
     </div>
   )
 }
