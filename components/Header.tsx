@@ -69,14 +69,14 @@ export default function Header() {
             <ul className="menu text-[#05361E] grid gap-[40px] items-center">
               {links.map(({ link, id }) => (
                 <li className="menu_link" key={id}>
-                  <Link href="/" className="font-Inter p-[8px] text-[14px]">
+                  <Link href="/" className="font-Inter p-[8px] text-[14px]" onClick={toggleMenu}>
                     {link}
                   </Link>
                 </li>
               ))}
               <li className="menu_link">
                 <button className="border-2 border-solid rounded-[34px] py-[8px] px-[16px]">
-                  <Link href="/signUp" className="font-Inter">
+                  <Link href="/signUp" className="font-Inter" onClick={toggleMenu}>
                     Register/Sign In
                   </Link>
                 </button>
