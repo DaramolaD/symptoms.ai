@@ -10,7 +10,7 @@ type Props = {
 
 function Button({ text }: Props) {
     return (
-        <Link href="/"
+        <Link href="/signUp"
             className={`flex max-w-fit gap-[14px] items-center px-[32px] py-[16px]  rounded-[8px] bg-[#1958FF] hover:shadow-sm hover:shadow-[#1958FF]`}>
              <Image src={heart} alt='cta_heart_icon' width={24} height={24}/> <span className='font-semibold text-base text-white'>{text}</span>
         </Link>
