@@ -208,7 +208,7 @@ function Chat({ }: Props) {
 
   return (
     <div className="chat flex pt-[62px]">
-      <div className="sideBar h-auto max-w-[290px] bg-[#21262F] px-[24px] py-[46px] left-[0px] top-[0px]">
+      <div className="hidden md:inline sideBar h-auto max-w-[290px] bg-[#21262F] px-[24px] py-[46px] left-[0px] top-[0px]">
         <div className="headings flex flex-col gap-[16px]">
           <h3 className='bg-[#7CE797] text-[#05361E] px-[16px] py-[12px] rounded-[4px] '>Chat History</h3>
             <input type="text" placeholder='Search' className='rounded-[4px] bg-[#21262F] border border-[#7E8695] text-[#7E8695] py-[8px] px-[12px]' />
