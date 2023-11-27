@@ -145,6 +145,7 @@ type MessageType = {
   direction?: 'incoming' | 'outgoing';
   sender: string;
   sentTime?: string;
+  position?: any;
 };
 
 function Chat({ }: Props) {
