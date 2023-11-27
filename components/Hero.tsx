@@ -10,7 +10,7 @@ function Hero() {
       <h1 className="text-5xl leading-[57px] font-semibold text-slate-900 text-left max-w-[700px]">
         Chat Your Way to Wellness; <br /> Your Health Deserves a <br /> Conversation!
       </h1>
-        <Button text="Check Symptoms" />
+        <Button text="Check Symptoms" url="/signup"/>
     </main>
   )
 }

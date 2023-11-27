@@ -50,8 +50,8 @@ export default function Header() {
           ))}
           <li className="menu_link">
             <button className="border border-solid rounded-full py-[8px] px-[16px]">
-              <Link href="/signUp" className="font-Inter">
-                Register/Sign In
+              <Link href="/signup" className="font-Inter">
+                Signup/Login
               </Link>
             </button>
           </li>
@@ -76,8 +76,8 @@ export default function Header() {
               ))}
               <li className="menu_link">
                 <button className="border-2 border-solid rounded-[34px] py-[8px] px-[16px]">
-                  <Link href="/signUp" className="font-Inter" onClick={toggleMenu}>
-                    Register/Sign In
+                  <Link href="/signup" className="font-Inter" onClick={toggleMenu}>
+                    Signup/Login
                   </Link>
                 </button>
               </li>
