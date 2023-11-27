@@ -1,0 +1,27 @@
+.cs-message-input__tools {
+  display: none !important;
+}
+.cs-message-input__content-editor-wrapper,
+.cs-message-input__content-editor {
+  color: #bfc6d4 !important;
+  background-color: #fafcff !important;
+  border: 1px solid #fafcff !important;
+  border-radius: 4px;
+}
+.cs-main-container {
+  border: 0px !important;
+  height: auto !important;
+}
+
+.cs-message__content {
+  background-color: #e1f9e5 !important;
+  font-size: 14px !important;
+  color: #373e4f !important;
+}
+.cs-message--outgoing .cs-message__content {
+  background-color: #ddddef !important;
+}
+
+input {
+    outline: none !important;
+}
