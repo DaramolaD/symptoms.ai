@@ -146,6 +146,7 @@ type MessageType = {
   sender: string;
   sentTime?: string;
   position?: any;
+  role?: 'system' | 'user' | 'assistant'
 };
 
 function Chat({ }: Props) {
